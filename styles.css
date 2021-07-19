@@ -1,0 +1,24 @@
+:root {
+    /* Primary */
+    --darkblue: hsl(233, 47%, 7%);
+    --darkdesblue: hsl(244, 38%, 16%);
+    --softviolet: hsl(277, 64%, 61%);
+    /* Neutral */
+    --white: hsl(0, 0%, 100%);
+    --slightlytranspwhite1: hsla(0, 0%, 100%, 0.75);
+    --slightlytranspwhite2: hsla(0, 0%, 100%, 0.6);
+}
+body {
+    font-size: 15px;
+}
+@media (max-width: 1440px) {
+    body {
+        min-width: 1440px;
+        min-height: 100vh;
+    }
+}
+@media (max-width: 375px) {
+    body {
+        min-width: 375px;
+    }
+}
