@@ -10,6 +10,32 @@
 }
 body {
     font-size: 15px;
+    background-color: var(--darkblue);
+}
+.card {
+    background-color: var(--darkdesblue);
+}
+.head-text span {
+    color: var(--softviolet);
+}
+h1 {
+    color: var(--white);
+}
+.stat-text {
+    color: var(--white);
+}
+.main-text {
+    color: var(--slightlytranspwhite1);
+}
+.stat-block p {
+    color: var(--slightlytranspwhite2);
+}
+.attribution {
+    color: var(--slightlytranspwhite2);
+}
+.attribution a {
+    text-decoration: none;
+    color: var(--slightlytranspwhite2);
 }
 @media (max-width: 1440px) {
     body {
