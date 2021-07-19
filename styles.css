@@ -37,14 +37,19 @@ h1 {
     text-decoration: none;
     color: var(--slightlytranspwhite2);
 }
+.container-picture img {
+    filter: invert(25%) sepia(65%) saturate(410%) hue-rotate(233deg)
+        brightness(98%) contrast(103%);
+}
 @media (max-width: 1440px) {
     body {
-        min-width: 1440px;
+        width: 1440px;
         min-height: 100vh;
     }
 }
 @media (max-width: 375px) {
     body {
-        min-width: 375px;
+        min-height: 100vh;
+        width: 375px;
     }
 }
