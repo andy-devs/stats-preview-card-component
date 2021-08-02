@@ -22,7 +22,8 @@ body {
     box-sizing: border-box;
 }
 .card {
-    border-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
     display: flex;
     max-height: 446px;
     margin: auto;
@@ -105,5 +106,8 @@ body {
     .card {
         max-width: 446px;
         flex-direction: column-reverse;
+    }
+    .container-info {
+        margin: 0 2rem 2rem 2rem;
     }
 }
